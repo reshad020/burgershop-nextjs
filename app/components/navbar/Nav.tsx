@@ -6,7 +6,7 @@ interface props {
 }
 const Nav = ({ openNav }: props) => {
   return (
-    <div className="h-[12vh]">
+    <div className="h-[8vh] md:h-[12vh]">
       <div className="flex w-[95%] h-[100%] justify-between items-center m-auto">
         <div className="flex space-x-1 sm:space-x-2 items-center ">
           <FaBurger className="text-orange-500 w-4 h-4 sm:w-8 sm:h-8" />
